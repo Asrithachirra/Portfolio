@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Chirra Asritha — Computer Science & Engineering undergraduate focused on software development, cybersecurity and networking.">
+  <title>Chirra Asritha | CSE Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">ASRITHA<span>.</span></a>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+    <button class="menu-btn" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE & ENGINEERING</p>
+        <h1>Hi, I'm <span>Asritha.</span><br>Building with code,<br>security & curiosity.</h1>
+        <p class="hero-text">
+          A CSE undergraduate at Lendi Institute of Engineering and Technology,
+          interested in software development, cybersecurity, computer networking
+          and practical technology projects.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore Projects</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/asritha-chirra-37b02b352" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="status"><span></span> Open to learning & opportunities</div>
+        <div class="monogram">CA</div>
+        <p class="hero-card-title">Computer Science<br>& Engineering</p>
+        <p class="hero-card-sub">3rd Year Undergraduate</p>
+        <div class="mini-stats">
+          <div><strong>9.2</strong><small>CGPA</small></div>
+          <div><strong>4</strong><small>Projects</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Turning learning into <span>projects.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="lead">
+            I am a Computer Science and Engineering undergraduate with a
+            <strong>9.2 CGPA</strong> and hands-on experience across software
+            development, cybersecurity, networking and databases.
+          </p>
+          <p>
+            I enjoy building practical systems and exploring how software and
+            networks can be made more useful and secure. My current work includes
+            a Mininet-based insider threat detection framework, a phishing SMS
+            detection system, a travel planning application and a machinery
+            bottleneck analysis tool.
+          </p>
+        </div>
+        <div class="facts">
+          <div><strong>100+</strong><span>SMS messages evaluated</span></div>
+          <div><strong>97%</strong><span>Phishing system accuracy</span></div>
+          <div><strong>20+</strong><span>Trips tested in TravelMate</span></div>
+          <div><strong>3–4</strong><span>Machine bottlenecks identified</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>Tools I <span>work with.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Languages</h3>
+          <p>C · Python · Java · JavaScript</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">WEB</div>
+          <h3>Web</h3>
+          <p>HTML · CSS · JavaScript</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">DB</div>
+          <h3>Databases</h3>
+          <p>SQL · MongoDB · NoSQL</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">NET</div>
+          <h3>Networking & Security</h3>
+          <p>Computer Networks · Network Security · Mininet · Insider Threat Detection · Phishing Detection</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">API</div>
+          <h3>Tools & APIs</h3>
+          <p>Streamlit · Google Maps APIs</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-head">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Things I've <span>built.</span></h2>
+      </div>
+
+      <div class="project-feature">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <div class="project-top">
+            <div>
+              <p class="project-type">CYBERSECURITY · ONGOING</p>
+              <h3>Insider Threat Detection Framework</h3>
+            </div>
+            <span class="tag">Mininet</span>
+          </div>
+          <p>
+            A network-level framework for modeling suspicious insider behavior
+            and lateral movement using behavioral state transitions and adaptive
+            containment.
+          </p>
+          <div class="project-flow">
+            <span>Network Activity</span><b>→</b>
+            <span>Behavioral State</span><b>→</b>
+            <span>Detection</span><b>→</b>
+            <span>Containment</span>
+          </div>
+          <ul>
+            <li>Designed and evaluated <strong>5 network security scenarios</strong> representing different stages of potential insider-induced activity.</li>
+            <li>Uses behavioral state transitions to support detection and adaptive containment of suspicious network activity.</li>
+          </ul>
+          <div class="tech-row"><span>Mininet</span><span>Network Security</span><span>Cybersecurity</span></div>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-top"><span>02</span><span class="tag">Python</span></div>
+          <p class="project-type">CYBERSECURITY</p>
+          <h3>Smart Phishing SMS Detection System</h3>
+          <p>Python-based system that identifies potentially fraudulent SMS messages and alerts users.</p>
+          <div class="metrics">
+            <div><strong>100</strong><small>SMS tested</small></div>
+            <div><strong>90%</strong><small>Suspicious messages detected</small></div>
+            <div><strong>97%</strong><small>Overall accuracy</small></div>
+          </div>
+          <div class="tech-row"><span>Python</span><span>Phishing Detection</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span>03</span><span class="tag">Web App</span></div>
+          <p class="project-type">TRAVEL · BUDGET</p>
+          <h3>TravelMate</h3>
+          <p>Trip planning and budget application for managing locations, expenses, photographs and memories.</p>
+          <div class="metrics single"><div><strong>20+</strong><small>Trips tested</small></div></div>
+          <div class="tech-row"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Google Maps API</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span>04</span><span class="tag">Streamlit</span></div>
+          <p class="project-type">DATA · PERFORMANCE</p>
+          <h3>Bottleneck Identifier in Machinery</h3>
+          <p>Interactive application that analyzes machine-performance parameters and identifies potential bottlenecks.</p>
+          <div class="metrics">
+            <div><strong>5</strong><small>Parameters</small></div>
+            <div><strong>3–4</strong><small>Potential bottlenecks</small></div>
+          </div>
+          <div class="tech-row"><span>Python</span><span>Streamlit</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="section-head">
+        <p class="eyebrow">04 — CERTIFICATIONS</p>
+        <h2>Learning beyond the <span>classroom.</span></h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card"><span>NPTEL</span><h3>Quantum Computing</h3><p>Algorithms and Limitations Through the Query Model</p></div>
+        <div class="cert-card"><span>NPTEL</span><h3>Internet of Things</h3><p>IoT coursework and learning</p></div>
+        <div class="cert-card"><span>MONGODB</span><h3>Core Concepts & Architecture</h3><p>MongoDB Overview</p></div>
+        <div class="cert-card"><span>PALO ALTO NETWORKS</span><h3>Cybersecurity</h3><p>Cybersecurity certification</p></div>
+        <div class="cert-card"><span>JUNIPER NETWORKS</span><h3>Networking</h3><p>Networking certification</p></div>
+        <div class="cert-card"><span>JUNIPER NETWORKS</span><h3>Networking Cloud</h3><p>Cloud networking certification</p></div>
+      </div>
+      <p class="note">Certificate files can be linked to these cards when you add the original PDFs/images to <code>assets/certificates/</code>.</p>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-head">
+        <p class="eyebrow">05 — ACHIEVEMENTS</p>
+        <h2>Learning through <span>competition.</span></h2>
+      </div>
+      <div class="achievement-list">
+        <div class="achievement"><span>01</span><div><h3>Hackathons</h3><p>Participated in multiple hackathons and technical innovation initiatives.</p></div></div>
+        <div class="achievement"><span>02</span><div><h3>Smart India Hackathon</h3><p>Participated in Smart India Hackathon (SIH) initiatives.</p></div></div>
+        <div class="achievement"><span>03</span><div><h3>Technical Competitions</h3><p>Participated in technical and innovation-oriented competitions involving software, cybersecurity, networking and emerging technologies.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">06 — CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>I'm always interested in learning, building and discussing technology.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:asrithachirra@gmail.com">Email Me</a>
+          <a class="btn secondary light" href="https://www.linkedin.com/in/asritha-chirra-37b02b352" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <p class="email-text">asrithachirra@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>CHIRRA ASRITHA</span>
+    <span>© 2026 · Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
